@@ -52,10 +52,23 @@
 // console.log(item["Harry"]);
 
 
-let a="hello" 
-let b = 50 
-console.log(a+b);
-console.log(typeof(a));
+// let a="hello" 
+// let b = 50 
+// console.log(a+b);
+// console.log(typeof(a));
+
+let a=10;
+let b=4;
+console.log("a+b",a+b);
+console.log("a=b",a-b);
+console.log("a*b",a*b);
+console.log("a/b",a/b);
+console.log("a%b",a%b);
+console.log("a**b",a**b);   
+console.log("++a",++a); // pre increment
+console.log("a++",a++); // post increment
+console.log("--a",--a);
+console.log("a--",a--);
 
 
 
