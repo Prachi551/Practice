@@ -57,18 +57,42 @@
 // console.log(a+b);
 // console.log(typeof(a));
 
-let a=10;
-let b=4;
-console.log("a+b",a+b);
-console.log("a=b",a-b);
-console.log("a*b",a*b);
-console.log("a/b",a/b);
-console.log("a%b",a%b);
-console.log("a**b",a**b);   
-console.log("++a",++a); // pre increment
-console.log("a++",a++); // post increment
-console.log("--a",--a);
-console.log("a--",a--);
+// let a=10;
+// let b=4;
+// console.log("a+b",a+b);
+// console.log("a=b",a-b);
+// console.log("a*b",a*b);
+// console.log("a/b",a/b);
+// console.log("a%b",a%b);
+// console.log("a**b",a**b);   45
+// console.log("++a",++a); // pre increment
+// console.log("a++",a++); // post increment
+// console.log("--a",--a);
+// console.log("a--",a--);
+// 1. arithmetic operators: +, -, *, /, %, **, ++, --
+// 2. assignment operators: =, +=, -=, *=, /=, %=, **=
+// 3. comparison operators: ==, ===, !=, !==, >, <, >=, <=
+// 4. logical operators: &&, ||, !
+// 5. bitwise operators: &, |, ^, ~, <<, >>, >>>
+
+let a = prompt("heyy whats your age?")
+console.log(typeof a)
+a=Number.parseInt(a) 
+console.log(typeof a)
+if(a<0){
+    alert("this is a not a valid age");
+}
+else if(a<9){
+    alert("you are a kid and you cannot even think of driving");
+
+}
+else if(a<18 && a>=9){
+    alert("you are a kid and you can think of driving after 18");
+}
+else{
+    alert("this is a valid age"); 
+
+}
 
 
 
